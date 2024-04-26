@@ -10,29 +10,31 @@ import SwiftData
 
 struct TeamView: View {
     @Environment(\.modelContext) var modelContext
+    let team: Team
     
     var body: some View {
         GeometryReader { geometry in
             RoundedRectangle(cornerRadius: 25.0)
                 .fill(
-                    LinearGradient(gradient: Gradient(colors: [Color("02192B"), Color("#2173B8")]), startPoint: .topLeading, endPoint: .bottomTrailing)
-            )
+                    Color(team.colors[0])
+                )
                 .frame(height: geometry.size.height / 2)
                 .overlay(
-                    RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
-                        .fill(Color.white.opacity(0.2))
-                        .frame(width: .infinity, height: 100)
-                        .overlay(
-                            Text("Team Name").bold()
-                                .font(.largeTitle)
-                        )
+                    VStack(alignment: .leading) {
+                        Text(team.name).bold()
+                            .font(.title)
+                            .foregroundColor(Color(team.colors[1]))
+                            
+                        Spacer()
+                        HStack {
+                            Text("Flag")
+                            Spacer()
+                            Text("Car")
+                        }
+                    }
                         .padding()
+                    
                 )
         }
-        .edgesIgnoringSafeArea(.top)
     }
-}
-
-#Preview {
-    TeamView()
 }

@@ -22,7 +22,6 @@ class Team: Codable {
     var tp: String
     var test_drivers: [String]?
     var team_url: String
-    var logo: String
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -36,7 +35,6 @@ class Team: Codable {
         case tp
         case test_drivers
         case team_url
-        case logo
     }
     
     required init(from decoder: Decoder) throws {
@@ -52,7 +50,6 @@ class Team: Codable {
         self.tp = try container.decode(String.self, forKey: .tp)
         self.test_drivers = try container.decode([String].self, forKey: .test_drivers)
         self.team_url = try container.decode(String.self, forKey: .team_url)
-        self.logo = try container.decode(String.self, forKey: .logo)
     }
     
     func encode(to encoder: Encoder) throws {
@@ -68,7 +65,6 @@ class Team: Codable {
         try container.encode(self.tp, forKey: .tp)
         try container.encode(self.test_drivers, forKey: .test_drivers)
         try container.encode(self.team_url, forKey: .team_url)
-        try container.encode(self.logo, forKey: .logo)
     }
     
 }

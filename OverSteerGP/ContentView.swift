@@ -17,10 +17,7 @@ struct ContentView: View {
             List {
                 ForEach(teams, id: \.id) { team in
                     NavigationLink{
-                        Text(team.name)
-                        Text(team.constructor)
-                        AsyncImage(url: URL(string: team.logo), scale: 2)
-                            .frame(width: 250, height: 250)
+                        TeamView(team: team)
                     } label: {
                         Text(team.name)
                     }
