@@ -2,9 +2,9 @@
 //  OverSteerGPApp.swift
 //  OverSteerGP
 //
-//  Created by Paul Quinnell on 2024-04-12.
+//  Created by Paul Quinnell on 2024-05-07.
 //
-import SwiftData
+
 import SwiftUI
 
 @main
@@ -13,6 +13,5 @@ struct OverSteerGPApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Team.self)
     }
 }

@@ -7,30 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA35A7212BDC342500F78FBC /* Images in Resources */ = {isa = PBXBuildFile; fileRef = DA35A7202BDC342500F78FBC /* Images */; };
-		DA35A7232BDC391500F78FBC /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA35A7222BDC391500F78FBC /* Driver.swift */; };
-		DAE4696D2BC9C9A100DE71BE /* OverSteerGPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4696C2BC9C9A100DE71BE /* OverSteerGPApp.swift */; };
-		DAE4696F2BC9C9A100DE71BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4696E2BC9C9A100DE71BE /* ContentView.swift */; };
-		DAE469712BC9C9A200DE71BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE469702BC9C9A200DE71BE /* Assets.xcassets */; };
-		DAE469742BC9C9A200DE71BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE469732BC9C9A200DE71BE /* Preview Assets.xcassets */; };
-		DAE4697C2BC9C9BE00DE71BE /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4697B2BC9C9BE00DE71BE /* Team.swift */; };
-		DAE4697E2BC9CEBA00DE71BE /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4697D2BC9CEBA00DE71BE /* TeamView.swift */; };
+		DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */; };
+		DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173922BEAA95900A8BC68 /* ContentView.swift */; };
+		DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173942BEAA95A00A8BC68 /* Assets.xcassets */; };
+		DA6173982BEAA95A00A8BC68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA35A7202BDC342500F78FBC /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../../../Images; sourceTree = "<group>"; };
-		DA35A7222BDC391500F78FBC /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
-		DAE469692BC9C9A100DE71BE /* OverSteerGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverSteerGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE4696C2BC9C9A100DE71BE /* OverSteerGPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverSteerGPApp.swift; sourceTree = "<group>"; };
-		DAE4696E2BC9C9A100DE71BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DAE469702BC9C9A200DE71BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAE469732BC9C9A200DE71BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DAE4697B2BC9C9BE00DE71BE /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
-		DAE4697D2BC9CEBA00DE71BE /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		DA61738D2BEAA95900A8BC68 /* OverSteerGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverSteerGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverSteerGPApp.swift; sourceTree = "<group>"; };
+		DA6173922BEAA95900A8BC68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA6173942BEAA95A00A8BC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DAE469662BC9C9A100DE71BE /* Frameworks */ = {
+		DA61738A2BEAA95900A8BC68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,63 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DAE469602BC9C9A100DE71BE = {
+		DA6173842BEAA95900A8BC68 = {
 			isa = PBXGroup;
 			children = (
-				DAE4696B2BC9C9A100DE71BE /* OverSteerGP */,
-				DAE4696A2BC9C9A100DE71BE /* Products */,
+				DA61738F2BEAA95900A8BC68 /* OverSteerGP */,
+				DA61738E2BEAA95900A8BC68 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DAE4696A2BC9C9A100DE71BE /* Products */ = {
+		DA61738E2BEAA95900A8BC68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAE469692BC9C9A100DE71BE /* OverSteerGP.app */,
+				DA61738D2BEAA95900A8BC68 /* OverSteerGP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAE4696B2BC9C9A100DE71BE /* OverSteerGP */ = {
+		DA61738F2BEAA95900A8BC68 /* OverSteerGP */ = {
 			isa = PBXGroup;
 			children = (
-				DAE4697A2BC9C9AB00DE71BE /* Models */,
-				DAE4696C2BC9C9A100DE71BE /* OverSteerGPApp.swift */,
-				DAE4696E2BC9C9A100DE71BE /* ContentView.swift */,
-				DAE469702BC9C9A200DE71BE /* Assets.xcassets */,
-				DA35A7202BDC342500F78FBC /* Images */,
-				DAE469722BC9C9A200DE71BE /* Preview Content */,
-				DAE4697D2BC9CEBA00DE71BE /* TeamView.swift */,
+				DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */,
+				DA6173922BEAA95900A8BC68 /* ContentView.swift */,
+				DA6173942BEAA95A00A8BC68 /* Assets.xcassets */,
+				DA6173962BEAA95A00A8BC68 /* Preview Content */,
 			);
 			path = OverSteerGP;
 			sourceTree = "<group>";
 		};
-		DAE469722BC9C9A200DE71BE /* Preview Content */ = {
+		DA6173962BEAA95A00A8BC68 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DAE469732BC9C9A200DE71BE /* Preview Assets.xcassets */,
+				DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DAE4697A2BC9C9AB00DE71BE /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				DAE4697B2BC9C9BE00DE71BE /* Team.swift */,
-				DA35A7222BDC391500F78FBC /* Driver.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAE469682BC9C9A100DE71BE /* OverSteerGP */ = {
+		DA61738C2BEAA95900A8BC68 /* OverSteerGP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE469772BC9C9A200DE71BE /* Build configuration list for PBXNativeTarget "OverSteerGP" */;
+			buildConfigurationList = DA61739B2BEAA95A00A8BC68 /* Build configuration list for PBXNativeTarget "OverSteerGP" */;
 			buildPhases = (
-				DAE469652BC9C9A100DE71BE /* Sources */,
-				DAE469662BC9C9A100DE71BE /* Frameworks */,
-				DAE469672BC9C9A100DE71BE /* Resources */,
+				DA6173892BEAA95900A8BC68 /* Sources */,
+				DA61738A2BEAA95900A8BC68 /* Frameworks */,
+				DA61738B2BEAA95900A8BC68 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -104,25 +84,25 @@
 			);
 			name = OverSteerGP;
 			productName = OverSteerGP;
-			productReference = DAE469692BC9C9A100DE71BE /* OverSteerGP.app */;
+			productReference = DA61738D2BEAA95900A8BC68 /* OverSteerGP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DAE469612BC9C9A100DE71BE /* Project object */ = {
+		DA6173852BEAA95900A8BC68 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					DAE469682BC9C9A100DE71BE = {
+					DA61738C2BEAA95900A8BC68 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = DAE469642BC9C9A100DE71BE /* Build configuration list for PBXProject "OverSteerGP" */;
+			buildConfigurationList = DA6173882BEAA95900A8BC68 /* Build configuration list for PBXProject "OverSteerGP" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,46 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = DAE469602BC9C9A100DE71BE;
-			productRefGroup = DAE4696A2BC9C9A100DE71BE /* Products */;
+			mainGroup = DA6173842BEAA95900A8BC68;
+			productRefGroup = DA61738E2BEAA95900A8BC68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAE469682BC9C9A100DE71BE /* OverSteerGP */,
+				DA61738C2BEAA95900A8BC68 /* OverSteerGP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DAE469672BC9C9A100DE71BE /* Resources */ = {
+		DA61738B2BEAA95900A8BC68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE469742BC9C9A200DE71BE /* Preview Assets.xcassets in Resources */,
-				DA35A7212BDC342500F78FBC /* Images in Resources */,
-				DAE469712BC9C9A200DE71BE /* Assets.xcassets in Resources */,
+				DA6173982BEAA95A00A8BC68 /* Preview Assets.xcassets in Resources */,
+				DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DAE469652BC9C9A100DE71BE /* Sources */ = {
+		DA6173892BEAA95900A8BC68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA35A7232BDC391500F78FBC /* Driver.swift in Sources */,
-				DAE4697C2BC9C9BE00DE71BE /* Team.swift in Sources */,
-				DAE4696F2BC9C9A100DE71BE /* ContentView.swift in Sources */,
-				DAE4696D2BC9C9A100DE71BE /* OverSteerGPApp.swift in Sources */,
-				DAE4697E2BC9CEBA00DE71BE /* TeamView.swift in Sources */,
+				DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */,
+				DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DAE469752BC9C9A200DE71BE /* Debug */ = {
+		DA6173992BEAA95A00A8BC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		DAE469762BC9C9A200DE71BE /* Release */ = {
+		DA61739A2BEAA95A00A8BC68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +264,7 @@
 			};
 			name = Release;
 		};
-		DAE469782BC9C9A200DE71BE /* Debug */ = {
+		DA61739C2BEAA95A00A8BC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		DAE469792BC9C9A200DE71BE /* Release */ = {
+		DA61739D2BEAA95A00A8BC68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -349,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAE469642BC9C9A100DE71BE /* Build configuration list for PBXProject "OverSteerGP" */ = {
+		DA6173882BEAA95900A8BC68 /* Build configuration list for PBXProject "OverSteerGP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAE469752BC9C9A200DE71BE /* Debug */,
-				DAE469762BC9C9A200DE71BE /* Release */,
+				DA6173992BEAA95A00A8BC68 /* Debug */,
+				DA61739A2BEAA95A00A8BC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAE469772BC9C9A200DE71BE /* Build configuration list for PBXNativeTarget "OverSteerGP" */ = {
+		DA61739B2BEAA95A00A8BC68 /* Build configuration list for PBXNativeTarget "OverSteerGP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAE469782BC9C9A200DE71BE /* Debug */,
-				DAE469792BC9C9A200DE71BE /* Release */,
+				DA61739C2BEAA95A00A8BC68 /* Debug */,
+				DA61739D2BEAA95A00A8BC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DAE469612BC9C9A100DE71BE /* Project object */;
+	rootObject = DA6173852BEAA95900A8BC68 /* Project object */;
 }
