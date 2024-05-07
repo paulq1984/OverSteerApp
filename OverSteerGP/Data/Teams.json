@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "BWT Alpine F1 Team",
+    "constructor": "Alpine-Renault",
+    "chassis": "A524",
+    "power_unit": "Renault E-Tech RE24",
+    "drivers": [
+      10, 31
+    ],
+    "colors": [
+      "Alpine1", "Alpine2"
+    ],
+    "base": "FRA",
+    "tp": "Bruno Famin",
+    "test_drivers": ["Jack Doohan"],
+    "team_url": "https://www.alpine-cars.co.uk/formula-1.html",
+    "logo": "alpine-f1-team-logo-1"
+  },
+  {
+    "id": 2,
+    "name": "Aston Martin Aramco F1 Team",
+    "constructor": "Aston Martin Aramco-Mercedes",
+    "chassis": "AMR24",
+    "power_unit": "Mercedes-AMG F1 M15",
+    "drivers": [
+      14, 18
+    ],
+    "colors": [
+      "AM1", "AM2"
+    ],
+    "base": "GBR",
+    "tp": "Mike Krack",
+    "test_drivers": ["Felipe Drugovich", "Stoffel Vandoorne"],
+    "team_url": "https://www.astonmartinf1.com/",
+    "logo": "aston-martin-cognizant-f1-team-1"
+  },
+  {
+    "id": 3,
+    "name": "Scuderia Ferrari",
+    "constructor": "Ferrari",
+    "chassis": "SF-24",
+    "power_unit": "Ferrari 066/12",
+    "drivers": [
+      16, 55, 38
+    ],
+    "colors": [
+      "Ferrari1", "Ferrari2"
+    ],
+    "base": "ITA",
+    "tp": "Frédéric Vasseur",
+    "test_drivers": ["Antonio Giovinazzi", "Robert Shwartzman", "Oliver Bearman"],
+    "team_url": "https://www.ferrari.com/formula1",
+    "logo":"scuderia-ferrari-logo-1"
+  },
+  {
+    "id": 4,
+    "name": "MoneyGram Haas F1 Team",
+    "constructor": "Hass-Ferrari",
+    "chassis": "VF-24",
+    "power_unit": "Ferrari 066/10",
+    "drivers": [
+      20, 27
+    ],
+    "colors": [
+      "Haas1", "Haas2"
+    ],
+    "base": "USA",
+    "tp": "Ayao Komatsu",
+    "test_drivers": ["Oliver Bearman", "Pietro Fittipaldi"],
+    "team_url": "https://www.haasf1team.com/",
+    "logo": "haas-logo-1"
+  },
+  {
+    "id": 5,
+    "name": "Stake F1 Team Kick Sauber",
+    "constructor": "Kick Sauber-Ferrari",
+    "chassis": "C44",
+    "power_unit": "Ferrari 066/12",
+    "drivers": [
+      24, 77
+    ],
+    "colors": [
+      "Kick1", "Kick2"
+    ],
+    "base": "SUI",
+    "tp": "Andreas Seidl",
+    "test_drivers": ["Théo Pourchaire", "Zane Maloney"],
+    "team_url": "https://www.sauber-group.com/",
+    "logo": "logo-stakef1team-rgb-pos-1"
+  },
+  {
+    "id": 6,
+    "name": "McLaren Formula 1 Team",
+    "constructor": "McLaren-Mercedes",
+    "chassis": "MCL38",
+    "power_unit": "Mercedes-AMG F1 M15",
+    "drivers": [
+      4, 81
+    ],
+    "colors": [
+      "Mc1", "Mc2"
+    ],
+    "base": "GBR",
+    "tp": "Zak Brown",
+    "test_drivers": ["Pato O'Ward", "Ryō Hirakawa"],
+    "team_url": "https://www.mclaren.com/racing/formula-1/",
+    "logo": "mclaren-f1-team-logo-1"
+  },
+  {
+    "id": 7,
+    "name": "Mercedes-AMG Petronas F1 Team",
+    "constructor": "Mercedes",
+    "chassis": "W15",
+    "power_unit": "Mercedes-AMG F1 M15",
+    "drivers": [
+      44, 63
+    ],
+    "colors": [
+      "Merc1", "Merc2"
+    ],
+    "base": "GER",
+    "tp": "Toto Wolff",
+    "test_drivers": ["Mick Schumacher", "Frederik Vestia"],
+    "team_url": "https://www.mercedesamgf1.com/en/",
+    "logo":"mercedes-f1-logo-1"
+  },
+  {
+    "id": 8,
+    "name": "Visa Cash App RB F1 Team",
+    "constructor": "RB-Honda RBPT",
+    "chassis": "VCARB01",
+    "power_unit": "Honda RBPTH002",
+    "drivers": [
+      3, 22
+    ],
+    "colors": [
+      "VCAB1", "VCAB2"
+    ],
+    "base": "ITA",
+    "tp": "Laurent Mekies",
+    "test_drivers": ["Liam Lawson"],
+    "team_url": "http://visacashapprb.com/",
+    "logo" : "visa-cash-app-rb-logo"
+  },
+  {
+    "id": 9,
+    "name": "Oracle Red Bull Racing",
+    "constructor": "Red Bull Racing-Honda RBPT",
+    "chassis": "RB20",
+    "power_unit": "Honda RBPTH002",
+    "drivers": [
+      1, 11
+    ],
+    "colors": [
+      "RBR1", "RBR2"
+    ],
+    "base": "AUT",
+    "tp": "Christian Horner",
+    "test_drivers": ["Liam Lawson"],
+    "team_url": "https://redbullracing.com/",
+    "logo" : "red-bull-racing-logo-1"
+  },
+  {
+    "id": 10,
+    "name": "Williams Racing",
+    "constructor": "Williams-Mercedes",
+    "chassis": "FW46",
+    "power_unit": "Mercedes-AMG F1 M15",
+    "drivers": [
+      2, 23
+    ],
+    "colors": [
+      "Will1", "Will2"
+    ],
+    "base": "GBR",
+    "tp": "James Vowles",
+    "test_drivers": ["Liam Lawson"],
+    "team_url": "https://www.williamsf1.com/",
+    "logo" : "williams-racing-logo-1"
+  }
+]

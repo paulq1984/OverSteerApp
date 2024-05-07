@@ -11,6 +11,10 @@
 		DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173922BEAA95900A8BC68 /* ContentView.swift */; };
 		DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173942BEAA95A00A8BC68 /* Assets.xcassets */; };
 		DA6173982BEAA95A00A8BC68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */; };
+		DA6173A22BEAA9EC00A8BC68 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173A12BEAA9EC00A8BC68 /* Team.swift */; };
+		DA6173A52BEAAD9200A8BC68 /* Teams.json in Resources */ = {isa = PBXBuildFile; fileRef = DA6173A42BEAAD9200A8BC68 /* Teams.json */; };
+		DA6173A92BEAAEB500A8BC68 /* TeamsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173A82BEAAEB500A8BC68 /* TeamsListScreen.swift */; };
+		DA6173AB2BEAAF1B00A8BC68 /* TeamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173AA2BEAAF1B00A8BC68 /* TeamListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DA6173922BEAA95900A8BC68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA6173942BEAA95A00A8BC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA6173A12BEAA9EC00A8BC68 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		DA6173A42BEAAD9200A8BC68 /* Teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Teams.json; sourceTree = "<group>"; };
+		DA6173A82BEAAEB500A8BC68 /* TeamsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListScreen.swift; sourceTree = "<group>"; };
+		DA6173AA2BEAAF1B00A8BC68 /* TeamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		DA61738F2BEAA95900A8BC68 /* OverSteerGP */ = {
 			isa = PBXGroup;
 			children = (
+				DA6173A32BEAAD8100A8BC68 /* Data */,
+				DA6173A02BEAA9E200A8BC68 /* Views */,
+				DA61739F2BEAA9DD00A8BC68 /* Screens */,
+				DA61739E2BEAA9D300A8BC68 /* Models */,
 				DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */,
 				DA6173922BEAA95900A8BC68 /* ContentView.swift */,
 				DA6173942BEAA95A00A8BC68 /* Assets.xcassets */,
@@ -65,6 +77,38 @@
 				DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA61739E2BEAA9D300A8BC68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA6173A12BEAA9EC00A8BC68 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA61739F2BEAA9DD00A8BC68 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DA6173A82BEAAEB500A8BC68 /* TeamsListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DA6173A02BEAA9E200A8BC68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA6173AA2BEAAF1B00A8BC68 /* TeamListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA6173A32BEAAD8100A8BC68 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DA6173A42BEAAD9200A8BC68 /* Teams.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6173982BEAA95A00A8BC68 /* Preview Assets.xcassets in Resources */,
+				DA6173A52BEAAD9200A8BC68 /* Teams.json in Resources */,
 				DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6173A22BEAA9EC00A8BC68 /* Team.swift in Sources */,
 				DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */,
+				DA6173AB2BEAAF1B00A8BC68 /* TeamListView.swift in Sources */,
+				DA6173A92BEAAEB500A8BC68 /* TeamsListScreen.swift in Sources */,
 				DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
