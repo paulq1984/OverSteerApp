@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA35A7212BDC342500F78FBC /* Images in Resources */ = {isa = PBXBuildFile; fileRef = DA35A7202BDC342500F78FBC /* Images */; };
+		DA35A7232BDC391500F78FBC /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA35A7222BDC391500F78FBC /* Driver.swift */; };
 		DAE4696D2BC9C9A100DE71BE /* OverSteerGPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4696C2BC9C9A100DE71BE /* OverSteerGPApp.swift */; };
 		DAE4696F2BC9C9A100DE71BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4696E2BC9C9A100DE71BE /* ContentView.swift */; };
 		DAE469712BC9C9A200DE71BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE469702BC9C9A200DE71BE /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA35A7202BDC342500F78FBC /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../../../Images; sourceTree = "<group>"; };
+		DA35A7222BDC391500F78FBC /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 		DAE469692BC9C9A100DE71BE /* OverSteerGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverSteerGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE4696C2BC9C9A100DE71BE /* OverSteerGPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverSteerGPApp.swift; sourceTree = "<group>"; };
 		DAE4696E2BC9C9A100DE71BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 				DAE4696C2BC9C9A100DE71BE /* OverSteerGPApp.swift */,
 				DAE4696E2BC9C9A100DE71BE /* ContentView.swift */,
 				DAE469702BC9C9A200DE71BE /* Assets.xcassets */,
+				DA35A7202BDC342500F78FBC /* Images */,
 				DAE469722BC9C9A200DE71BE /* Preview Content */,
 				DAE4697D2BC9CEBA00DE71BE /* TeamView.swift */,
 			);
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				DAE4697B2BC9C9BE00DE71BE /* Team.swift */,
+				DA35A7222BDC391500F78FBC /* Driver.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE469742BC9C9A200DE71BE /* Preview Assets.xcassets in Resources */,
+				DA35A7212BDC342500F78FBC /* Images in Resources */,
 				DAE469712BC9C9A200DE71BE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA35A7232BDC391500F78FBC /* Driver.swift in Sources */,
 				DAE4697C2BC9C9BE00DE71BE /* Team.swift in Sources */,
 				DAE4696F2BC9C9A100DE71BE /* ContentView.swift in Sources */,
 				DAE4696D2BC9C9A100DE71BE /* OverSteerGPApp.swift in Sources */,

@@ -14,7 +14,7 @@ struct TeamView: View {
     
     var body: some View {
         GeometryReader { geometry in
-            RoundedRectangle(cornerRadius: 25.0)
+            RoundedRectangle(cornerRadius: 20.0)
                 .fill(
                     Color(team.colors[0])
                 )
@@ -24,12 +24,12 @@ struct TeamView: View {
                         Text(team.name).bold()
                             .font(.title)
                             .foregroundColor(Color(team.colors[1]))
-                            
+                        Image(team.logo)
                         Spacer()
                         HStack {
-                            Text("Flag")
+                            Image(team.base)
                             Spacer()
-                            Text("Car")
+                            Image(team.chassis)
                         }
                     }
                         .padding()
