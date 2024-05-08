@@ -16,14 +16,16 @@ class DriverModel {
     var first_win: String?
     var team: String
     var country: String
+    var image: String
     
-    init(id: Int, name: String, first_entry: String, first_win: String? = nil, team: String, country: String) {
+    init(id: Int, name: String, first_entry: String, first_win: String? = nil, team: String, country: String, image: String) {
         self.id = id
         self.name = name
         self.first_entry = first_entry
         self.first_win = first_win
         self.team = team
         self.country = country
+        self.image = image
     }
 }
 
