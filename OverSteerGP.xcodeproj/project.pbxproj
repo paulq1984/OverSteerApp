@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1EC4502BEBD06C00D96292 /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EC44F2BEBD06C00D96292 /* DriverView.swift */; };
 		DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */; };
 		DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173922BEAA95900A8BC68 /* ContentView.swift */; };
 		DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173942BEAA95A00A8BC68 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA1EC44F2BEBD06C00D96292 /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
 		DA61738D2BEAA95900A8BC68 /* OverSteerGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverSteerGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverSteerGPApp.swift; sourceTree = "<group>"; };
 		DA6173922BEAA95900A8BC68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				DA970D062BEBBFDB008D0DE3 /* TeamListView.swift */,
 				DA970D082BEBC152008D0DE3 /* TeamView.swift */,
+				DA1EC44F2BEBD06C00D96292 /* DriverView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				DA970D052BEBBB5C008D0DE3 /* DriverLoader.swift in Sources */,
 				DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */,
+				DA1EC4502BEBD06C00D96292 /* DriverView.swift in Sources */,
 				DA970D032BEBBB36008D0DE3 /* DriverModel.swift in Sources */,
 				DA970D072BEBBFDB008D0DE3 /* TeamListView.swift in Sources */,
 				DA970D012BEBB7A9008D0DE3 /* DataImporter.swift in Sources */,

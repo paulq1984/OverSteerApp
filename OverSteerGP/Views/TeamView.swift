@@ -11,25 +11,28 @@ import SwiftData
 struct TeamView: View {
     
     let team: TeamModel
-    let driverIDs = [10, 31]
     
+    @Query(sort: \DriverModel.name, order: .forward) private var drivers: [DriverModel]
     
-    private var filteredDrivers: [DriverModel]
+    var filteredDrivers: [DriverModel] {
+        drivers.filter { team.drivers.contains($0.id)}
+    }
+    
     
     var body: some View {
-        VStack{
-            Text(team.name)
-            List {
-                ForEach(filteredDrivers) { driver in
-                    Text(driver.name)
+            VStack{
+                Text(team.name)
+                List {
+                    ForEach(filteredDrivers) { driver in // Use filteredDrivers here
+                        NavigationLink(value: driver) {
+                            Text(driver.name)
+                        }
+                    }
                 }
             }
-        }
-        .onAppear {
-            returnDrivers(team: team)
-        }
-        
-        
+            .navigationDestination(for: DriverModel.self) { driver in
+                    DriverView(driver: driver)
+            }
     }
 }
 
