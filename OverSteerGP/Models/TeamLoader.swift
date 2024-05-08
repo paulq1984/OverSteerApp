@@ -17,6 +17,7 @@ struct Team: Decodable {
     var base: String
     var tp: String
     var team_url: String
+    var drivers: [Int]
 }
 
 struct TeamLoader {

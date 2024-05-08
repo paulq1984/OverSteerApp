@@ -2,16 +2,34 @@
 //  TeamView.swift
 //  OverSteerGP
 //
-//  Created by Paul Quinnell on 2024-05-07.
+//  Created by Paul Quinnell on 2024-05-08.
 //
 
 import SwiftUI
+import SwiftData
 
 struct TeamView: View {
-    let team: Team
+    
+    let team: TeamModel
+    let driverIDs = [10, 31]
+    
+    
+    private var filteredDrivers: [DriverModel]
     
     var body: some View {
-        Text(team.name)
+        VStack{
+            Text(team.name)
+            List {
+                ForEach(filteredDrivers) { driver in
+                    Text(driver.name)
+                }
+            }
+        }
+        .onAppear {
+            returnDrivers(team: team)
+        }
+        
+        
     }
 }
 

@@ -11,12 +11,13 @@
 		DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173922BEAA95900A8BC68 /* ContentView.swift */; };
 		DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173942BEAA95A00A8BC68 /* Assets.xcassets */; };
 		DA6173982BEAA95A00A8BC68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */; };
-		DA6173AD2BEAB7C400A8BC68 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173AC2BEAB7C400A8BC68 /* TeamView.swift */; };
 		DA970CFB2BEBAD4A008D0DE3 /* TeamLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970CFA2BEBAD4A008D0DE3 /* TeamLoader.swift */; };
 		DA970CFF2BEBB199008D0DE3 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970CFE2BEBB199008D0DE3 /* TeamModel.swift */; };
 		DA970D012BEBB7A9008D0DE3 /* DataImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970D002BEBB7A9008D0DE3 /* DataImporter.swift */; };
 		DA970D032BEBBB36008D0DE3 /* DriverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970D022BEBBB36008D0DE3 /* DriverModel.swift */; };
 		DA970D052BEBBB5C008D0DE3 /* DriverLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970D042BEBBB5C008D0DE3 /* DriverLoader.swift */; };
+		DA970D072BEBBFDB008D0DE3 /* TeamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970D062BEBBFDB008D0DE3 /* TeamListView.swift */; };
+		DA970D092BEBC152008D0DE3 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970D082BEBC152008D0DE3 /* TeamView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +26,13 @@
 		DA6173922BEAA95900A8BC68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA6173942BEAA95A00A8BC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DA6173AC2BEAB7C400A8BC68 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
 		DA970CFA2BEBAD4A008D0DE3 /* TeamLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamLoader.swift; sourceTree = "<group>"; };
 		DA970CFE2BEBB199008D0DE3 /* TeamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
 		DA970D002BEBB7A9008D0DE3 /* DataImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataImporter.swift; sourceTree = "<group>"; };
 		DA970D022BEBBB36008D0DE3 /* DriverModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverModel.swift; sourceTree = "<group>"; };
 		DA970D042BEBBB5C008D0DE3 /* DriverLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverLoader.swift; sourceTree = "<group>"; };
+		DA970D062BEBBFDB008D0DE3 /* TeamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListView.swift; sourceTree = "<group>"; };
+		DA970D082BEBC152008D0DE3 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				DA6173A02BEAA9E200A8BC68 /* Views */,
-				DA61739F2BEAA9DD00A8BC68 /* Screens */,
 				DA61739E2BEAA9D300A8BC68 /* Models */,
 				DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */,
 				DA6173922BEAA95900A8BC68 /* ContentView.swift */,
@@ -94,17 +95,11 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		DA61739F2BEAA9DD00A8BC68 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
 		DA6173A02BEAA9E200A8BC68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA6173AC2BEAB7C400A8BC68 /* TeamView.swift */,
+				DA970D062BEBBFDB008D0DE3 /* TeamListView.swift */,
+				DA970D082BEBC152008D0DE3 /* TeamView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,11 +177,12 @@
 				DA970D052BEBBB5C008D0DE3 /* DriverLoader.swift in Sources */,
 				DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */,
 				DA970D032BEBBB36008D0DE3 /* DriverModel.swift in Sources */,
-				DA6173AD2BEAB7C400A8BC68 /* TeamView.swift in Sources */,
+				DA970D072BEBBFDB008D0DE3 /* TeamListView.swift in Sources */,
 				DA970D012BEBB7A9008D0DE3 /* DataImporter.swift in Sources */,
 				DA970CFF2BEBB199008D0DE3 /* TeamModel.swift in Sources */,
 				DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */,
 				DA970CFB2BEBAD4A008D0DE3 /* TeamLoader.swift in Sources */,
+				DA970D092BEBC152008D0DE3 /* TeamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

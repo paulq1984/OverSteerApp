@@ -20,8 +20,9 @@ class TeamModel {
     var base: String
     var tp: String
     var team_url: String
+    var drivers: [Int]
     
-    init(id: Int, name: String, logo: String, constructor: String, chassis: String, power_unit: String, base: String, tp: String, team_url: String) {
+    init(id: Int, name: String, logo: String, constructor: String, chassis: String, power_unit: String, base: String, tp: String, team_url: String, drivers: [Int]) {
         self.id = id
         self.name = name
         self.logo = logo
@@ -31,5 +32,6 @@ class TeamModel {
         self.base = base
         self.tp = tp
         self.team_url = team_url
+        self.drivers = drivers
     }
 }

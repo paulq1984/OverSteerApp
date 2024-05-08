@@ -14,11 +14,7 @@ struct ContentView: View {
     @Query private var drivers: [DriverModel]
     
     var body: some View {
-        VStack {
-            Text("Teams count: \(teams.count)")
-            Text("Drivers count: \(drivers.count)")
-        }
-        .padding()
+        TeamListView()
     }
 }
 
