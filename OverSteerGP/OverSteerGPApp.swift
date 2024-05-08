@@ -10,32 +10,29 @@ import SwiftData
 
 @main
 struct OverSteerGPApp: App {
+    
+    let container = try! ModelContainer(for: TeamModel.self, DriverModel.self)
+    let teamLoader = TeamLoader()
+    let driverLoader = DriverLoader()
+    
+    let dataImporter: DataImporter
+    
+    init() {
+        self.dataImporter = DataImporter(context: container.mainContext, teamLoader: teamLoader, driverLoader: driverLoader)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            TeamsListScreen()
-        }
-        .modelContainer(for: Team.self) { result in
-            do {
-                let container = try result.get()
-                
-                let teamsDescriptor = FetchDescriptor<Team>()
-                let existingTeams = try container.mainContext.fetchCount(teamsDescriptor)
-                guard existingTeams == 0 else { return }
-                
-                guard let url = Bundle.main.url(forResource: "Teams", withExtension: "json") else {
-                    fatalError("Failed to load teams.json")
+            ContentView()
+                .task {
+                    do {
+                        try await dataImporter.importTeamsData()
+                        try await dataImporter.importDriversData()
+                    } catch {
+                        print(error)
+                    }
+                    
                 }
-                
-                let data = try Data(contentsOf: url)
-                let teams = try JSONDecoder().decode([Team].self, from: data)
-                
-                for team in teams {
-                    container.mainContext.insert(team)
-                }
-                
-            } catch {
-                print("Failed to pre-seed data")
-            }
-        }
+        }.modelContainer(container)
     }
 }

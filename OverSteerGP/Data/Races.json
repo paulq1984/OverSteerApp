@@ -1,0 +1,2104 @@
+[
+    {
+        "id": 171,
+        "title": "Bahrain GP",
+        "countryShort": "BHR",
+        "countryFull": "Bahrain",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/bahrain-gp",
+        "subEvents": [
+            {
+                "id": 1153,
+                "title": "practice-1",
+                "status": "completed",
+                "dateStart": "2024-02-29T12:30:00+01:00",
+                "dateEnd": "2024-02-29T13:30:00+01:00",
+                "result": [
+                    {
+                        "name": "RIC",
+                        "color": "#6692FF",
+                        "time": "1:32.869"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:32.901"
+                    },
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "1:33.113"
+                    },
+                    {
+                        "name": "TSU",
+                        "color": "#6692FF",
+                        "time": "1:33.183"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:33.193"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-bahrain-grand-prix-free-practice-1-results"
+            },
+            {
+                "id": 1154,
+                "title": "practice-2",
+                "status": "completed",
+                "dateStart": "2024-02-29T16:00:00+01:00",
+                "dateEnd": "2024-02-29T17:00:00+01:00",
+                "result": [
+                    {
+                        "name": "HAM",
+                        "color": "#27F4D2",
+                        "time": "1:30.374"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:30.580"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:30.660"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:30.769"
+                    },
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "1:30.784"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-bahrain-grand-prix-free-practice-2-results"
+            },
+            {
+                "id": 1155,
+                "title": "practice-3",
+                "status": "completed",
+                "dateStart": "2024-03-01T13:30:00+01:00",
+                "dateEnd": "2024-03-01T14:30:00+01:00",
+                "result": [
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:30.824"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:30.965"
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:31.062"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:31.094"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:31.118"
+                    }
+                ],
+                "urlArticle": null
+            },
+            {
+                "id": 1156,
+                "title": "qualification",
+                "status": "completed",
+                "dateStart": "2024-03-01T17:00:00+01:00",
+                "dateEnd": "2024-03-01T18:00:00+01:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:29.179"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:29.407"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:29.485"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:29.507"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:29.537"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-bahrain-grand-prix-qualifying-results"
+            },
+            {
+                "id": 1157,
+                "title": "race",
+                "status": "completed",
+                "dateStart": "2024-03-02T16:00:00+01:00",
+                "dateEnd": "2024-03-02T18:00:00+01:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "LAP 57"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "+22.457"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "+25.110"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "+39.669"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "+46.788"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-bahrain-grand-prix-results"
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "title": "Saudi Arabian GP",
+        "countryShort": "SAU",
+        "countryFull": "Saudi Arabian",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/saudi-arabian-gp",
+        "subEvents": [
+            {
+                "id": 1158,
+                "title": "practice-1",
+                "status": "completed",
+                "dateStart": "2024-03-07T14:30:00+01:00",
+                "dateEnd": "2024-03-07T15:30:00+01:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:29.659"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:29.845"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:29.868"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:29.939"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:30.030"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-saudi-arabian-grand-prix-free-practice-2-results"
+            },
+            {
+                "id": 1159,
+                "title": "practice-2",
+                "status": "completed",
+                "dateStart": "2024-03-07T18:00:00+01:00",
+                "dateEnd": "2024-03-07T19:00:00+01:00",
+                "result": [
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:28.827"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:29.057"
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:29.158"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:29.180"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:29.300"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-saudi-arabian-gp-free-practice-2-results"
+            },
+            {
+                "id": 1160,
+                "title": "practice-3",
+                "status": "completed",
+                "dateStart": "2024-03-08T14:30:00+01:00",
+                "dateEnd": "2024-03-08T15:30:00+01:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:28.412"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:28.608"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:28.906"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:28.964"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:28.971"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-saudi-arabian-grand-prix-free-practice-3-results"
+            },
+            {
+                "id": 1161,
+                "title": "qualification",
+                "status": "completed",
+                "dateStart": "2024-03-08T18:00:00+01:00",
+                "dateEnd": "2024-03-08T19:00:00+01:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:27.472"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:27.791"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:27.807"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:27.846"
+                    },
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "1:28.089"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-saudi-arabian-grand-prix-qualifying-results"
+            },
+            {
+                "id": 1162,
+                "title": "race",
+                "status": "completed",
+                "dateStart": "2024-03-09T18:00:00+01:00",
+                "dateEnd": "2024-03-09T20:00:00+01:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": ""
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "+ 13.643"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "+ 18.639"
+                    },
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "+ 32.007"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "+ 35.759"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-saudi-arabian-grand-prix-results"
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "title": "Australian GP",
+        "countryShort": "AUS",
+        "countryFull": "Australian",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/australian-gp",
+        "subEvents": [
+            {
+                "id": 1163,
+                "title": "practice-1",
+                "status": "completed",
+                "dateStart": "2024-03-22T02:30:00+01:00",
+                "dateEnd": "2024-03-22T03:30:00+01:00",
+                "result": [
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:18.564"
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:18.582"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:18.597"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:18.599"
+                    },
+                    {
+                        "name": "TSU",
+                        "color": "#6692FF",
+                        "time": "1:18.621"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-australian-grand-prix---free-practice-1-results"
+            },
+            {
+                "id": 1164,
+                "title": "practice-2",
+                "status": "completed",
+                "dateStart": "2024-03-22T06:00:00+01:00",
+                "dateEnd": "2024-03-22T07:00:00+01:00",
+                "result": [
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:17.277"
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:17.658"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:17.707"
+                    },
+                    {
+                        "name": "STR",
+                        "color": "#229971",
+                        "time": "1:17.822"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:17.912"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-australian-grand-prix-free-practice-2-results"
+            },
+            {
+                "id": 1165,
+                "title": "practice-3",
+                "status": "completed",
+                "dateStart": "2024-03-23T02:30:00+01:00",
+                "dateEnd": "2024-03-23T03:30:00+01:00",
+                "result": [
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:16.714"
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:16.734"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:16.791"
+                    },
+                    {
+                        "name": "HAM",
+                        "color": "#27F4D2",
+                        "time": "1:16.806"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:16.886"
+                    }
+                ],
+                "urlArticle": null
+            },
+            {
+                "id": 1166,
+                "title": "qualification",
+                "status": "completed",
+                "dateStart": "2024-03-23T06:00:00+01:00",
+                "dateEnd": "2024-03-23T07:00:00+01:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:15.915"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:16.185"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:16.274"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:16.315"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:16.435"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-australian-grand-prix-qualifying-results"
+            },
+            {
+                "id": 1167,
+                "title": "race",
+                "status": "completed",
+                "dateStart": "2024-03-24T05:00:00+01:00",
+                "dateEnd": "2024-03-24T07:00:00+01:00",
+                "result": [
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": ""
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "+ 2.366"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "+ 5.904"
+                    },
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "+ 35.770"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "+ 56.309"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-australian-grand-prix-results"
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "title": "Japanese GP",
+        "countryShort": "JPN",
+        "countryFull": "Japanese",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/japanese-gp",
+        "subEvents": [
+            {
+                "id": 1168,
+                "title": "practice-1",
+                "status": "completed",
+                "dateStart": "2024-04-05T04:30:00+02:00",
+                "dateEnd": "2024-04-05T05:30:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:30.056"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:30.237"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:30.269"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:30.530"
+                    },
+                    {
+                        "name": "HAM",
+                        "color": "#27F4D2",
+                        "time": "1:30.543"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-japanese-grand-prix-free-practice-1-results"
+            },
+            {
+                "id": 1169,
+                "title": "practice-2",
+                "status": "completed",
+                "dateStart": "2024-04-05T08:00:00+02:00",
+                "dateEnd": "2024-04-05T09:00:00+02:00",
+                "result": [
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "1:34.725"
+                    },
+                    {
+                        "name": "HAM",
+                        "color": "#27F4D2",
+                        "time": "1:35.226"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:38.760"
+                    },
+                    {
+                        "name": "TSU",
+                        "color": "#6692FF",
+                        "time": "1:40.946"
+                    },
+                    {
+                        "name": "RIC",
+                        "color": "#6692FF",
+                        "time": "1:41.913"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-japanese-grand-prix-free-practice-2-results"
+            },
+            {
+                "id": 1170,
+                "title": "practice-3",
+                "status": "completed",
+                "dateStart": "2024-04-06T04:30:00+02:00",
+                "dateEnd": "2024-04-06T05:30:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:29.563"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:29.832"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:29.918"
+                    },
+                    {
+                        "name": "HAM",
+                        "color": "#27F4D2",
+                        "time": "1:30.037"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:30.082"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-japanese-grand-prix-free-practice-3-results"
+            },
+            {
+                "id": 1171,
+                "title": "qualification",
+                "status": "completed",
+                "dateStart": "2024-04-06T08:00:00+02:00",
+                "dateEnd": "2024-04-06T09:00:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:28.197"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:28.263"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:28.489"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:28.682"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:28.686"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-japanese-grand-prix-qualifying-results"
+            },
+            {
+                "id": 1172,
+                "title": "race",
+                "status": "completed",
+                "dateStart": "2024-04-07T07:00:00+02:00",
+                "dateEnd": "2024-04-07T09:00:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": ""
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "+ 2.535"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "+ 0.866"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "+ 6.522"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "+ 9.700"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-japanese-grand-prix-results"
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "title": "Chinese GP",
+        "countryShort": "CHN",
+        "countryFull": "Chinese",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/gp-china",
+        "subEvents": [
+            {
+                "id": 1173,
+                "title": "practice-1",
+                "status": "completed",
+                "dateStart": "2024-04-19T05:30:00+02:00",
+                "dateEnd": "2024-04-19T06:30:00+02:00",
+                "result": [
+                    {
+                        "name": "STR",
+                        "color": "#229971",
+                        "time": "1:36.302"
+                    },
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "1:36.629"
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:36.660"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:36.690"
+                    },
+                    {
+                        "name": "HUL",
+                        "color": "#B6BABD",
+                        "time": "1:37.101"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-chinese-grand-prix-free-practice-results"
+            },
+            {
+                "id": 1175,
+                "title": "sprint-shootout",
+                "status": "completed",
+                "dateStart": "2024-04-19T09:30:00+02:00",
+                "dateEnd": "2024-04-19T10:15:00+02:00",
+                "result": [
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:57.940"
+                    },
+                    {
+                        "name": "HAM",
+                        "color": "#27F4D2",
+                        "time": "1:59.201"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:59.915"
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "2:00.028"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "2:00.214"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-chinese-grand-prix-sprint-shootout-results"
+            },
+            {
+                "id": 1176,
+                "title": "sprint-qualification",
+                "status": "completed",
+                "dateStart": "2024-04-20T05:00:00+02:00",
+                "dateEnd": "2024-04-20T06:00:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "LAP 19"
+                    },
+                    {
+                        "name": "HAM",
+                        "color": "#27F4D2",
+                        "time": "+13.043"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "+15.258"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "+17.486"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "+20.696"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-chinese-grand-prix-sprint-results"
+            },
+            {
+                "id": 1174,
+                "title": "qualification",
+                "status": "completed",
+                "dateStart": "2024-04-20T09:00:00+02:00",
+                "dateEnd": "2024-04-20T10:00:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:33.660"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:33.982"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#229971",
+                        "time": "1:34.148"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:34.165"
+                    },
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "1:34.273"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-chinese-grand-prix-qualifying-results"
+            },
+            {
+                "id": 1177,
+                "title": "race",
+                "status": "completed",
+                "dateStart": "2024-04-21T09:00:00+02:00",
+                "dateEnd": "2024-04-21T11:00:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": ""
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": ""
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "+ 19.160"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "+ 23.623"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "+ 33.983"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-chinese-grand-prix-results"
+            }
+        ]
+    },
+    {
+        "id": 176,
+        "title": "Miami GP",
+        "countryShort": "USA",
+        "countryFull": "Miami",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/gp-miami",
+        "subEvents": [
+            {
+                "id": 1178,
+                "title": "practice-1",
+                "status": "completed",
+                "dateStart": "2024-05-03T18:30:00+02:00",
+                "dateEnd": "2024-05-03T19:30:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:28.595"
+                    },
+                    {
+                        "name": "PIA",
+                        "color": "#FF8000",
+                        "time": "1:28.700"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:28.711"
+                    },
+                    {
+                        "name": "RUS",
+                        "color": "#27F4D2",
+                        "time": "1:28.784"
+                    },
+                    {
+                        "name": "STR",
+                        "color": "#229971",
+                        "time": "1:28.817"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-miami-grand-prix-free-practice-1-results"
+            },
+            {
+                "id": 1179,
+                "title": "sprint-shootout",
+                "status": "completed",
+                "dateStart": "2024-05-03T22:30:00+02:00",
+                "dateEnd": "2024-05-03T23:15:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:27.641"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:27.749"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:27.876"
+                    },
+                    {
+                        "name": "RIC",
+                        "color": "#6692FF",
+                        "time": "1:28.044"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:28.103"
+                    }
+                ],
+                "urlArticle": null
+            },
+            {
+                "id": 1180,
+                "title": "sprint-qualification",
+                "status": "completed",
+                "dateStart": "2024-05-04T18:00:00+02:00",
+                "dateEnd": "2024-05-04T19:00:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "LAP 19"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "+3.371"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "+5.095"
+                    },
+                    {
+                        "name": "RIC",
+                        "color": "#6692FF",
+                        "time": "+14.971"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "+15.222"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-miami-grand-prix-sprint-results"
+            },
+            {
+                "id": 1181,
+                "title": "qualification",
+                "status": "completed",
+                "dateStart": "2024-05-04T22:00:00+02:00",
+                "dateEnd": "2024-05-04T23:00:00+02:00",
+                "result": [
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "1:27.241"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "1:27.382"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "1:27.455"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "1:27.460"
+                    },
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": "1:27.594"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/2024-f1-miami-grand-prix-qualifying-results"
+            },
+            {
+                "id": 1182,
+                "title": "race",
+                "status": "completed",
+                "dateStart": "2024-05-05T22:00:00+02:00",
+                "dateEnd": "2024-05-05T23:59:59+02:00",
+                "result": [
+                    {
+                        "name": "NOR",
+                        "color": "#FF8000",
+                        "time": ""
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": "+ 7.612"
+                    },
+                    {
+                        "name": "LEC",
+                        "color": "#E8002D",
+                        "time": "+ 9.920"
+                    },
+                    {
+                        "name": "PER",
+                        "color": "#3671C6",
+                        "time": "+ 14.650"
+                    },
+                    {
+                        "name": "SAI",
+                        "color": "#E8002D",
+                        "time": "+ 16.407"
+                    }
+                ],
+                "urlArticle": "https:\/\/racingnews365.com\/updated-2024-f1-miami-gp-results-after-multiple-penalties"
+            }
+        ]
+    },
+    {
+        "id": 177,
+        "title": "Imola GP",
+        "countryShort": "ITA",
+        "countryFull": "Emilia Romagna",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/emilia-romagna-gp",
+        "subEvents": [
+            {
+                "id": 1183,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-05-17T13:30:00+02:00",
+                "dateEnd": "2024-05-17T14:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1184,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-05-17T17:00:00+02:00",
+                "dateEnd": "2024-05-17T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1185,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-05-18T12:30:00+02:00",
+                "dateEnd": "2024-05-18T13:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1186,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-05-18T16:00:00+02:00",
+                "dateEnd": "2024-05-18T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1187,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-05-19T15:00:00+02:00",
+                "dateEnd": "2024-05-19T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "title": "Monaco GP",
+        "countryShort": "MCO",
+        "countryFull": "Monaco",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/monaco-gp",
+        "subEvents": [
+            {
+                "id": 1188,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-05-24T13:30:00+02:00",
+                "dateEnd": "2024-05-24T14:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1189,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-05-24T17:00:00+02:00",
+                "dateEnd": "2024-05-24T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1190,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-05-25T12:30:00+02:00",
+                "dateEnd": "2024-05-25T13:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1191,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-05-25T16:00:00+02:00",
+                "dateEnd": "2024-05-25T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1192,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-05-26T15:00:00+02:00",
+                "dateEnd": "2024-05-26T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 179,
+        "title": "Canadian GP",
+        "countryShort": "CAN",
+        "countryFull": "Canadian",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/canadian-gp",
+        "subEvents": [
+            {
+                "id": 1193,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-06-07T19:30:00+02:00",
+                "dateEnd": "2024-06-07T20:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1194,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-06-07T23:00:00+02:00",
+                "dateEnd": "2024-06-08T00:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1195,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-06-08T18:30:00+02:00",
+                "dateEnd": "2024-06-08T19:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1196,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-06-08T22:00:00+02:00",
+                "dateEnd": "2024-06-08T23:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1197,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-06-09T20:00:00+02:00",
+                "dateEnd": "2024-06-09T22:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "title": "Spanish GP",
+        "countryShort": "ESP",
+        "countryFull": "Spanish",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/spanish-gp",
+        "subEvents": [
+            {
+                "id": 1198,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-06-21T13:30:00+02:00",
+                "dateEnd": "2024-06-21T14:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1199,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-06-21T17:00:00+02:00",
+                "dateEnd": "2024-06-21T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1200,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-06-22T12:30:00+02:00",
+                "dateEnd": "2024-06-22T13:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1201,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-06-22T16:00:00+02:00",
+                "dateEnd": "2024-06-22T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1202,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-06-23T15:00:00+02:00",
+                "dateEnd": "2024-06-23T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "title": "Austrian GP",
+        "countryShort": "AUT",
+        "countryFull": "Austrian",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/austrian-gp",
+        "subEvents": [
+            {
+                "id": 1203,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-06-28T13:30:00+02:00",
+                "dateEnd": "2024-06-28T14:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1205,
+                "title": "sprint-shootout",
+                "status": "upcoming",
+                "dateStart": "2024-06-28T17:00:00+02:00",
+                "dateEnd": "2024-06-28T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1206,
+                "title": "sprint-qualification",
+                "status": "upcoming",
+                "dateStart": "2024-06-29T12:00:00+02:00",
+                "dateEnd": "2024-06-29T13:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1204,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-06-29T16:00:00+02:00",
+                "dateEnd": "2024-06-29T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1207,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-06-30T15:00:00+02:00",
+                "dateEnd": "2024-06-30T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "title": "British GP",
+        "countryShort": "GBR",
+        "countryFull": "British",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/british-gp",
+        "subEvents": [
+            {
+                "id": 1208,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-07-05T13:30:00+02:00",
+                "dateEnd": "2024-07-05T14:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1209,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-07-05T17:00:00+02:00",
+                "dateEnd": "2024-07-05T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1210,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-07-06T12:30:00+02:00",
+                "dateEnd": "2024-07-06T13:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1211,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-07-06T16:00:00+02:00",
+                "dateEnd": "2024-07-06T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1212,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-07-07T16:00:00+02:00",
+                "dateEnd": "2024-07-07T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "title": "Hungarian GP",
+        "countryShort": "HUN",
+        "countryFull": "Hungarian",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/hungarian-gp",
+        "subEvents": [
+            {
+                "id": 1213,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-07-19T13:30:00+02:00",
+                "dateEnd": "2024-07-19T14:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1214,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-07-19T17:00:00+02:00",
+                "dateEnd": "2024-07-19T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1215,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-07-20T12:30:00+02:00",
+                "dateEnd": "2024-07-20T13:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1216,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-07-20T16:00:00+02:00",
+                "dateEnd": "2024-07-20T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1217,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-07-21T15:00:00+02:00",
+                "dateEnd": "2024-07-21T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "title": "Belgian GP",
+        "countryShort": "BEL",
+        "countryFull": "Belgian",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/belgian-gp",
+        "subEvents": [
+            {
+                "id": 1218,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-07-26T13:30:00+02:00",
+                "dateEnd": "2024-07-26T14:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1219,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-07-26T17:00:00+02:00",
+                "dateEnd": "2024-07-26T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1220,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-07-27T12:30:00+02:00",
+                "dateEnd": "2024-07-27T13:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1221,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-07-27T16:00:00+02:00",
+                "dateEnd": "2024-07-27T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1222,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-07-28T15:00:00+02:00",
+                "dateEnd": "2024-07-28T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "title": "Dutch GP",
+        "countryShort": "NLD",
+        "countryFull": "Dutch",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/dutch-gp",
+        "subEvents": [
+            {
+                "id": 1223,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-08-23T12:30:00+02:00",
+                "dateEnd": "2024-08-23T13:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1224,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-08-23T16:00:00+02:00",
+                "dateEnd": "2024-08-23T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1225,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-08-24T11:30:00+02:00",
+                "dateEnd": "2024-08-24T12:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1226,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-08-24T15:00:00+02:00",
+                "dateEnd": "2024-08-24T16:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1227,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-08-25T15:00:00+02:00",
+                "dateEnd": "2024-08-25T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "title": "Italian GP",
+        "countryShort": "ITA",
+        "countryFull": "Italian",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/italian-gp",
+        "subEvents": [
+            {
+                "id": 1228,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-08-30T13:30:00+02:00",
+                "dateEnd": "2024-08-30T14:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1229,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-08-30T17:00:00+02:00",
+                "dateEnd": "2024-08-30T18:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1230,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-08-31T12:30:00+02:00",
+                "dateEnd": "2024-08-31T13:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1231,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-08-31T16:00:00+02:00",
+                "dateEnd": "2024-08-31T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1232,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-09-01T15:00:00+02:00",
+                "dateEnd": "2024-09-01T17:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "title": "Azerbaijan GP",
+        "countryShort": "AZE",
+        "countryFull": "Azerbaijan",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/azerbaijan-gp",
+        "subEvents": [
+            {
+                "id": 1233,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-09-13T11:30:00+02:00",
+                "dateEnd": "2024-09-13T12:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1234,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-09-13T15:00:00+02:00",
+                "dateEnd": "2024-09-13T16:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1235,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-09-14T10:30:00+02:00",
+                "dateEnd": "2024-09-14T11:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1236,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-09-14T14:00:00+02:00",
+                "dateEnd": "2024-09-14T15:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1237,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-09-15T13:00:00+02:00",
+                "dateEnd": "2024-09-15T15:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "title": "Singapore GP",
+        "countryShort": "SGP",
+        "countryFull": "Singapore",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/singapore-gp",
+        "subEvents": [
+            {
+                "id": 1238,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-09-20T11:30:00+02:00",
+                "dateEnd": "2024-09-20T12:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1239,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-09-20T15:00:00+02:00",
+                "dateEnd": "2024-09-20T16:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1240,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-09-21T11:30:00+02:00",
+                "dateEnd": "2024-09-21T12:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1241,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-09-21T15:00:00+02:00",
+                "dateEnd": "2024-09-21T16:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1242,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-09-22T14:00:00+02:00",
+                "dateEnd": "2024-09-22T16:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "title": "United States GP",
+        "countryShort": "USA",
+        "countryFull": "United States",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/united-states-gp",
+        "subEvents": [
+            {
+                "id": 1243,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-10-18T19:30:00+02:00",
+                "dateEnd": "2024-10-18T20:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1245,
+                "title": "sprint-shootout",
+                "status": "upcoming",
+                "dateStart": "2024-10-18T23:00:00+02:00",
+                "dateEnd": "2024-10-18T23:59:59+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1246,
+                "title": "sprint-qualification",
+                "status": "upcoming",
+                "dateStart": "2024-10-19T20:00:00+02:00",
+                "dateEnd": "2024-10-19T21:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1244,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-10-20T00:00:00+02:00",
+                "dateEnd": "2024-10-20T01:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1247,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-10-20T21:00:00+02:00",
+                "dateEnd": "2024-10-20T23:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 190,
+        "title": "Mexican GP",
+        "countryShort": "MEX",
+        "countryFull": "Mexican",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/mexican-gp",
+        "subEvents": [
+            {
+                "id": 1248,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-10-25T20:30:00+02:00",
+                "dateEnd": "2024-10-25T21:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1249,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-10-26T00:00:00+02:00",
+                "dateEnd": "2024-10-26T01:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1250,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-10-26T19:30:00+02:00",
+                "dateEnd": "2024-10-26T20:30:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1251,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-10-26T22:00:00+02:00",
+                "dateEnd": "2024-10-26T23:00:00+02:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1252,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-10-27T21:00:00+01:00",
+                "dateEnd": "2024-10-27T23:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "title": "Brazilian GP",
+        "countryShort": "BRA",
+        "countryFull": "Brazilian",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/brazilian-gp",
+        "subEvents": [
+            {
+                "id": 1253,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-11-01T15:30:00+01:00",
+                "dateEnd": "2024-11-01T16:30:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1255,
+                "title": "sprint-shootout",
+                "status": "upcoming",
+                "dateStart": "2024-11-01T19:00:00+01:00",
+                "dateEnd": "2024-11-01T20:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1256,
+                "title": "sprint-qualification",
+                "status": "upcoming",
+                "dateStart": "2024-11-02T15:00:00+01:00",
+                "dateEnd": "2024-11-02T16:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1254,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-11-02T19:00:00+01:00",
+                "dateEnd": "2024-11-02T20:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1257,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-11-03T18:00:00+01:00",
+                "dateEnd": "2024-11-03T20:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 192,
+        "title": "Las Vegas GP",
+        "countryShort": "USA",
+        "countryFull": "Las Vegas",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/gp-las-vegas",
+        "subEvents": [
+            {
+                "id": 1258,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-11-22T05:30:00+01:00",
+                "dateEnd": "2024-11-22T06:30:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1259,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-11-22T09:00:00+01:00",
+                "dateEnd": "2024-11-22T10:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1260,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-11-23T05:30:00+01:00",
+                "dateEnd": "2024-11-23T06:30:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1261,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-11-23T09:00:00+01:00",
+                "dateEnd": "2024-11-23T10:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1262,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-11-24T07:00:00+01:00",
+                "dateEnd": "2024-11-24T09:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "title": "Qatar GP",
+        "countryShort": "QAT",
+        "countryFull": "Lusail",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/gp-qatar",
+        "subEvents": [
+            {
+                "id": 1263,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-11-29T14:30:00+01:00",
+                "dateEnd": "2024-11-29T15:30:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1265,
+                "title": "sprint-shootout",
+                "status": "upcoming",
+                "dateStart": "2024-11-29T18:00:00+01:00",
+                "dateEnd": "2024-11-29T19:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1266,
+                "title": "sprint-qualification",
+                "status": "upcoming",
+                "dateStart": "2024-11-30T14:00:00+01:00",
+                "dateEnd": "2024-11-30T15:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1264,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-11-30T18:00:00+01:00",
+                "dateEnd": "2024-11-30T19:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1267,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-12-01T18:00:00+01:00",
+                "dateEnd": "2024-12-01T20:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "title": "Abu Dhabi GP",
+        "countryShort": "ARE",
+        "countryFull": "Abu Dhabi",
+        "urlDetail": "https:\/\/racingnews365.com\/formula-1-circuits\/abu-dhabi-gp",
+        "subEvents": [
+            {
+                "id": 1268,
+                "title": "practice-1",
+                "status": "upcoming",
+                "dateStart": "2024-12-06T10:30:00+01:00",
+                "dateEnd": "2024-12-06T11:30:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1269,
+                "title": "practice-2",
+                "status": "upcoming",
+                "dateStart": "2024-12-06T14:00:00+01:00",
+                "dateEnd": "2024-12-06T15:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1270,
+                "title": "practice-3",
+                "status": "upcoming",
+                "dateStart": "2024-12-07T11:30:00+01:00",
+                "dateEnd": "2024-12-07T12:30:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1271,
+                "title": "qualification",
+                "status": "upcoming",
+                "dateStart": "2024-12-07T15:00:00+01:00",
+                "dateEnd": "2024-12-07T16:00:00+01:00",
+                "result": [],
+                "urlArticle": null
+            },
+            {
+                "id": 1272,
+                "title": "race",
+                "status": "upcoming",
+                "dateStart": "2024-12-08T14:00:00+01:00",
+                "dateEnd": "2024-12-08T16:00:00+01:00",
+                "result": [
+                    {
+                        "name": "LEC",
+                        "color": "#F91536",
+                        "time": "LAP 0"
+                    },
+                    {
+                        "name": "ALO",
+                        "color": "#358C75",
+                        "time": null
+                    },
+                    {
+                        "name": "BOT",
+                        "color": "#1a2c38",
+                        "time": null
+                    },
+                    {
+                        "name": "MAG",
+                        "color": "#B6BABD",
+                        "time": null
+                    },
+                    {
+                        "name": "VER",
+                        "color": "#3671C6",
+                        "time": null
+                    }
+                ],
+                "urlArticle": null
+            }
+        ]
+    }
+]

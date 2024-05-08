@@ -9,11 +9,14 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Query var teams: [Team]
+    @Environment(\.modelContext) private var context
+    @Query private var teams: [TeamModel]
+    @Query private var drivers: [DriverModel]
     
     var body: some View {
-        List(teams) { team in
-            Text(team.name)
+        VStack {
+            Text("Teams count: \(teams.count)")
+            Text("Drivers count: \(drivers.count)")
         }
         .padding()
     }

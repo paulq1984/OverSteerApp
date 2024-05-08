@@ -11,12 +11,12 @@
 		DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173922BEAA95900A8BC68 /* ContentView.swift */; };
 		DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173942BEAA95A00A8BC68 /* Assets.xcassets */; };
 		DA6173982BEAA95A00A8BC68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */; };
-		DA6173A22BEAA9EC00A8BC68 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173A12BEAA9EC00A8BC68 /* Team.swift */; };
-		DA6173A52BEAAD9200A8BC68 /* Teams.json in Resources */ = {isa = PBXBuildFile; fileRef = DA6173A42BEAAD9200A8BC68 /* Teams.json */; };
-		DA6173A92BEAAEB500A8BC68 /* TeamsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173A82BEAAEB500A8BC68 /* TeamsListScreen.swift */; };
 		DA6173AD2BEAB7C400A8BC68 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173AC2BEAB7C400A8BC68 /* TeamView.swift */; };
-		DA6173AF2BEAB86C00A8BC68 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173AE2BEAB86C00A8BC68 /* Driver.swift */; };
-		DA6173B12BEAB8A200A8BC68 /* Drivers.json in Resources */ = {isa = PBXBuildFile; fileRef = DA6173B02BEAB8A200A8BC68 /* Drivers.json */; };
+		DA970CFB2BEBAD4A008D0DE3 /* TeamLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970CFA2BEBAD4A008D0DE3 /* TeamLoader.swift */; };
+		DA970CFF2BEBB199008D0DE3 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970CFE2BEBB199008D0DE3 /* TeamModel.swift */; };
+		DA970D012BEBB7A9008D0DE3 /* DataImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970D002BEBB7A9008D0DE3 /* DataImporter.swift */; };
+		DA970D032BEBBB36008D0DE3 /* DriverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970D022BEBBB36008D0DE3 /* DriverModel.swift */; };
+		DA970D052BEBBB5C008D0DE3 /* DriverLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA970D042BEBBB5C008D0DE3 /* DriverLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +25,12 @@
 		DA6173922BEAA95900A8BC68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA6173942BEAA95A00A8BC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6173972BEAA95A00A8BC68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DA6173A12BEAA9EC00A8BC68 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
-		DA6173A42BEAAD9200A8BC68 /* Teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Teams.json; sourceTree = "<group>"; };
-		DA6173A82BEAAEB500A8BC68 /* TeamsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListScreen.swift; sourceTree = "<group>"; };
 		DA6173AC2BEAB7C400A8BC68 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
-		DA6173AE2BEAB86C00A8BC68 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
-		DA6173B02BEAB8A200A8BC68 /* Drivers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Drivers.json; sourceTree = "<group>"; };
+		DA970CFA2BEBAD4A008D0DE3 /* TeamLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamLoader.swift; sourceTree = "<group>"; };
+		DA970CFE2BEBB199008D0DE3 /* TeamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		DA970D002BEBB7A9008D0DE3 /* DataImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataImporter.swift; sourceTree = "<group>"; };
+		DA970D022BEBBB36008D0DE3 /* DriverModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverModel.swift; sourceTree = "<group>"; };
+		DA970D042BEBBB5C008D0DE3 /* DriverLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,6 @@
 		DA61738F2BEAA95900A8BC68 /* OverSteerGP */ = {
 			isa = PBXGroup;
 			children = (
-				DA6173A32BEAAD8100A8BC68 /* Data */,
 				DA6173A02BEAA9E200A8BC68 /* Views */,
 				DA61739F2BEAA9DD00A8BC68 /* Screens */,
 				DA61739E2BEAA9D300A8BC68 /* Models */,
@@ -71,6 +70,7 @@
 				DA6173922BEAA95900A8BC68 /* ContentView.swift */,
 				DA6173942BEAA95A00A8BC68 /* Assets.xcassets */,
 				DA6173962BEAA95A00A8BC68 /* Preview Content */,
+				DA970D002BEBB7A9008D0DE3 /* DataImporter.swift */,
 			);
 			path = OverSteerGP;
 			sourceTree = "<group>";
@@ -86,8 +86,10 @@
 		DA61739E2BEAA9D300A8BC68 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DA6173A12BEAA9EC00A8BC68 /* Team.swift */,
-				DA6173AE2BEAB86C00A8BC68 /* Driver.swift */,
+				DA970D022BEBBB36008D0DE3 /* DriverModel.swift */,
+				DA970CFE2BEBB199008D0DE3 /* TeamModel.swift */,
+				DA970CFA2BEBAD4A008D0DE3 /* TeamLoader.swift */,
+				DA970D042BEBBB5C008D0DE3 /* DriverLoader.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -95,7 +97,6 @@
 		DA61739F2BEAA9DD00A8BC68 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				DA6173A82BEAAEB500A8BC68 /* TeamsListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -106,15 +107,6 @@
 				DA6173AC2BEAB7C400A8BC68 /* TeamView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		DA6173A32BEAAD8100A8BC68 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				DA6173A42BEAAD9200A8BC68 /* Teams.json */,
-				DA6173B02BEAB8A200A8BC68 /* Drivers.json */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6173982BEAA95A00A8BC68 /* Preview Assets.xcassets in Resources */,
-				DA6173A52BEAAD9200A8BC68 /* Teams.json in Resources */,
 				DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */,
-				DA6173B12BEAB8A200A8BC68 /* Drivers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6173A22BEAA9EC00A8BC68 /* Team.swift in Sources */,
+				DA970D052BEBBB5C008D0DE3 /* DriverLoader.swift in Sources */,
 				DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */,
+				DA970D032BEBBB36008D0DE3 /* DriverModel.swift in Sources */,
 				DA6173AD2BEAB7C400A8BC68 /* TeamView.swift in Sources */,
-				DA6173AF2BEAB86C00A8BC68 /* Driver.swift in Sources */,
-				DA6173A92BEAAEB500A8BC68 /* TeamsListScreen.swift in Sources */,
+				DA970D012BEBB7A9008D0DE3 /* DataImporter.swift in Sources */,
+				DA970CFF2BEBB199008D0DE3 /* TeamModel.swift in Sources */,
 				DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */,
+				DA970CFB2BEBAD4A008D0DE3 /* TeamLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
