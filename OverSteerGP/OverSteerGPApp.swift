@@ -18,8 +18,8 @@ struct OverSteerGPApp: App {
             do {
                 let container = try result.get()
                 
-                let descriptor = FetchDescriptor<Team>()
-                let existingTeams = try container.mainContext.fetchCount(descriptor)
+                let teamsDescriptor = FetchDescriptor<Team>()
+                let existingTeams = try container.mainContext.fetchCount(teamsDescriptor)
                 guard existingTeams == 0 else { return }
                 
                 guard let url = Bundle.main.url(forResource: "Teams", withExtension: "json") else {
@@ -32,6 +32,7 @@ struct OverSteerGPApp: App {
                 for team in teams {
                     container.mainContext.insert(team)
                 }
+                
             } catch {
                 print("Failed to pre-seed data")
             }

@@ -32,6 +32,7 @@ class Team: Codable {
     var base: String
     var tp: String
     var team_url: String
+    var drivers: [Driver]?
     
     init(id: Int, name: String, logo: String, constructor: String, chassis: String, power_unit: String, base: String, tp: String, team_url: String) {
         self.id = id
