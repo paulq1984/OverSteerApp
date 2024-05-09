@@ -6,18 +6,29 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct RacesView: View {
+    @Environment(\.modelContext) private var context
+    
+    @Query(sort: \RaceModel.title, order: .forward) private var races: [RaceModel]
+    
     var body: some View {
         NavigationStack {
             List {
-                Text("Races")
+                Section() {
+                    ForEach(races) { race in
+                            HStack() {
+                                Text(race.title)
+                            }
+                        }
+                }
             }
             .navigationTitle("Races")
         }
     }
 }
 
-#Preview {
-    RacesView()
-}
+//#Preview {
+//    RacesView()
+//}

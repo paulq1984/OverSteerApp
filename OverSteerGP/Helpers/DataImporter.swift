@@ -12,6 +12,7 @@ struct DataImporter {
     let context: ModelContext
     let teamLoader: TeamLoader
     let driverLoader: DriverLoader
+    let raceLoader: RaceLoader
     
 
     func importTeamsData() async throws {
@@ -43,6 +44,22 @@ struct DataImporter {
                 drivers.forEach { driver in
                     let driverModel = DriverModel(id: driver.id, name: driver.name, first_entry: driver.first_entry, team: driver.team, country: driver.country, image: driver.image, colors: driver.colors)
                     context.insert(driverModel)
+                }
+            }
+        }
+    }
+    
+    func importRacesData() async throws {
+        var racesDescriptor = FetchDescriptor<RaceModel>()
+        racesDescriptor.fetchLimit = 1
+        let persistedRaces = try context.fetch(racesDescriptor)
+        
+        if persistedRaces.isEmpty {
+            let races = try await raceLoader.loadRaces()
+            if !races.isEmpty {
+                races.forEach { race in
+                    let raceModel = RaceModel(id: race.id, title: race.title, countryShort: race.countryShort, countryFull: race.countryFull, completed: race.completed)
+                    context.insert(raceModel)
                 }
             }
         }
