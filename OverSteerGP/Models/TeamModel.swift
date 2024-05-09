@@ -21,11 +21,11 @@ class TeamModel {
     var tp: String
     var team_url: String
     var drivers: [Int]
-    var colors: [String]
+    var colors: String
     var tc: String
     var first_entry: String
     
-    init(id: Int, name: String, logo: String, constructor: String, chassis: String, power_unit: String, base: String, tp: String, team_url: String, drivers: [Int], colors: [String], tc: String, first_entry: String) {
+    init(id: Int, name: String, logo: String, constructor: String, chassis: String, power_unit: String, base: String, tp: String, team_url: String, drivers: [Int], colors: String, tc: String, first_entry: String) {
         self.id = id
         self.name = name
         self.logo = logo

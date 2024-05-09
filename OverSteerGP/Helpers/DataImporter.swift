@@ -41,7 +41,7 @@ struct DataImporter {
             let drivers = try await driverLoader.loadDrivers()
             if !drivers.isEmpty {
                 drivers.forEach { driver in
-                    let driverModel = DriverModel(id: driver.id, name: driver.name, first_entry: driver.first_entry, team: driver.team, country: driver.country, image: driver.image)
+                    let driverModel = DriverModel(id: driver.id, name: driver.name, first_entry: driver.first_entry, team: driver.team, country: driver.country, image: driver.image, colors: driver.colors)
                     context.insert(driverModel)
                 }
             }

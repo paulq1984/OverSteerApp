@@ -9,12 +9,15 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var context
-    @Query private var teams: [TeamModel]
-    @Query private var drivers: [DriverModel]
-    
     var body: some View {
-        TeamListView()
+            TabView {
+                TeamListView()
+                    .tabItem { Label("Teams", systemImage: "car.2")}
+                DriverListView()
+                    .tabItem { Label("Driver", systemImage: "figure.seated.side")}
+                RacesView()
+                    .tabItem { Label("Races", systemImage: "flag.checkered.2.crossed")}
+            }
     }
 }
 

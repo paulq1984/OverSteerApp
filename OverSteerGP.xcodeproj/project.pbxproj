@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DA1EC4502BEBD06C00D96292 /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EC44F2BEBD06C00D96292 /* DriverView.swift */; };
 		DA1EC4572BED119C00D96292 /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = DA1EC4562BED119C00D96292 /* Colors */; };
+		DA1EC4592BED4D8A00D96292 /* DriverListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EC4582BED4D8A00D96292 /* DriverListView.swift */; };
+		DA1EC45C2BED532000D96292 /* RacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EC45B2BED532000D96292 /* RacesView.swift */; };
 		DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */; };
 		DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173922BEAA95900A8BC68 /* ContentView.swift */; };
 		DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173942BEAA95A00A8BC68 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		DA1EC44F2BEBD06C00D96292 /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
 		DA1EC4562BED119C00D96292 /* Colors */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Colors; path = Assets.xcassets/Colors; sourceTree = "<group>"; };
+		DA1EC4582BED4D8A00D96292 /* DriverListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverListView.swift; sourceTree = "<group>"; };
+		DA1EC45B2BED532000D96292 /* RacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacesView.swift; sourceTree = "<group>"; };
 		DA61738D2BEAA95900A8BC68 /* OverSteerGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverSteerGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverSteerGPApp.swift; sourceTree = "<group>"; };
 		DA6173922BEAA95900A8BC68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA1EC45A2BED4DBC00D96292 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA970D002BEBB7A9008D0DE3 /* DataImporter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DA6173842BEAA95900A8BC68 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +81,7 @@
 		DA61738F2BEAA95900A8BC68 /* OverSteerGP */ = {
 			isa = PBXGroup;
 			children = (
+				DA1EC45A2BED4DBC00D96292 /* Helpers */,
 				DA6173A02BEAA9E200A8BC68 /* Views */,
 				DA61739E2BEAA9D300A8BC68 /* Models */,
 				DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */,
@@ -76,7 +89,6 @@
 				DA6173942BEAA95A00A8BC68 /* Assets.xcassets */,
 				DA1EC4562BED119C00D96292 /* Colors */,
 				DA6173962BEAA95A00A8BC68 /* Preview Content */,
-				DA970D002BEBB7A9008D0DE3 /* DataImporter.swift */,
 			);
 			path = OverSteerGP;
 			sourceTree = "<group>";
@@ -106,6 +118,8 @@
 				DA970D062BEBBFDB008D0DE3 /* TeamListView.swift */,
 				DA970D082BEBC152008D0DE3 /* TeamView.swift */,
 				DA1EC44F2BEBD06C00D96292 /* DriverView.swift */,
+				DA1EC4582BED4D8A00D96292 /* DriverListView.swift */,
+				DA1EC45B2BED532000D96292 /* RacesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,7 +204,9 @@
 				DA1EC4502BEBD06C00D96292 /* DriverView.swift in Sources */,
 				DA970D032BEBBB36008D0DE3 /* DriverModel.swift in Sources */,
 				DA970D072BEBBFDB008D0DE3 /* TeamListView.swift in Sources */,
+				DA1EC4592BED4D8A00D96292 /* DriverListView.swift in Sources */,
 				DA970D012BEBB7A9008D0DE3 /* DataImporter.swift in Sources */,
+				DA1EC45C2BED532000D96292 /* RacesView.swift in Sources */,
 				DA970CFF2BEBB199008D0DE3 /* TeamModel.swift in Sources */,
 				DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */,
 				DA970CFB2BEBAD4A008D0DE3 /* TeamLoader.swift in Sources */,

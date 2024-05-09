@@ -15,6 +15,7 @@ struct Driver: Decodable {
     var team: String
     var country: String
     var image: String
+    var colors: String
 }
 
 struct DriverLoader {
