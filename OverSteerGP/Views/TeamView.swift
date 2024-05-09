@@ -24,47 +24,47 @@ struct TeamView: View {
             Section(header: Text(team.name)) {
                 VStack(alignment: .center) {
                     HStack(){
-                        Text("2024 \(team.constructor)")
+                        Text(team.constructor)
                         Spacer()
-                        Text(team.base)
+                        Image(team.base)
                     }
                     Image(team.chassis)
                 }
             }
-            .headerProminence(.increased)
             Section(header: Text("Drivers")) {
                 ForEach(filteredDrivers) { driver in
                     NavigationLink(value: driver) {
                         HStack {
-                            AsyncImage(url: URL(string: driver.image)) { image in
-                                image.resizable()
-                            } placeholder: {
-                                Color.red
-                            }
-                            .frame(width: 50, height: 50)
-                            .clipShape(.rect(cornerRadius: 10))
+                            Image("\(driver.id)")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 20, height: 20)
+                            Divider()
+                                .frame(width: 5, height: 20)
+                                .overlay(Color(team.colors[0]))
                             Text(driver.name)
                         }
                         
                     }
                 }
             }
-            .headerProminence(.increased)
+            
             Section(header: Text("Team Information")) {
                 VStack(alignment: .leading){
                     Text("Name: \(team.name)")
+                    Text("First Entry: \(team.first_entry)")
                     Text("Team Principal: \(team.tp)")
+                    Text("Techincal Chief: \(team.tc)")
                     Text("Current Chassis: \(team.chassis)")
                     Text("Current Power Unit: \(team.power_unit)")
                 }
             }
-            .headerProminence(.increased)
         }
         .listStyle(.insetGrouped)
+        .navigationTitle("Team Info")
         .navigationDestination(for: DriverModel.self) { driver in
             DriverView(driver: driver)
         }
-        .navigationTitle("Team Information")
     }
 }
 

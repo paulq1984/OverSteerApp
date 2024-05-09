@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA1EC4502BEBD06C00D96292 /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EC44F2BEBD06C00D96292 /* DriverView.swift */; };
+		DA1EC4572BED119C00D96292 /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = DA1EC4562BED119C00D96292 /* Colors */; };
 		DA6173912BEAA95900A8BC68 /* OverSteerGPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */; };
 		DA6173932BEAA95900A8BC68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6173922BEAA95900A8BC68 /* ContentView.swift */; };
 		DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6173942BEAA95A00A8BC68 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		DA1EC44F2BEBD06C00D96292 /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
+		DA1EC4562BED119C00D96292 /* Colors */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Colors; path = Assets.xcassets/Colors; sourceTree = "<group>"; };
 		DA61738D2BEAA95900A8BC68 /* OverSteerGP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverSteerGP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverSteerGPApp.swift; sourceTree = "<group>"; };
 		DA6173922BEAA95900A8BC68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				DA6173902BEAA95900A8BC68 /* OverSteerGPApp.swift */,
 				DA6173922BEAA95900A8BC68 /* ContentView.swift */,
 				DA6173942BEAA95A00A8BC68 /* Assets.xcassets */,
+				DA1EC4562BED119C00D96292 /* Colors */,
 				DA6173962BEAA95A00A8BC68 /* Preview Content */,
 				DA970D002BEBB7A9008D0DE3 /* DataImporter.swift */,
 			);
@@ -123,6 +126,8 @@
 			dependencies = (
 			);
 			name = OverSteerGP;
+			packageProductDependencies = (
+			);
 			productName = OverSteerGP;
 			productReference = DA61738D2BEAA95900A8BC68 /* OverSteerGP.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +156,8 @@
 				Base,
 			);
 			mainGroup = DA6173842BEAA95900A8BC68;
+			packageReferences = (
+			);
 			productRefGroup = DA61738E2BEAA95900A8BC68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -165,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1EC4572BED119C00D96292 /* Colors in Resources */,
 				DA6173982BEAA95A00A8BC68 /* Preview Assets.xcassets in Resources */,
 				DA6173952BEAA95A00A8BC68 /* Assets.xcassets in Resources */,
 			);

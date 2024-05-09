@@ -24,7 +24,7 @@ struct DataImporter {
             let teams = try await teamLoader.loadTeams()
             if !teams.isEmpty {
                 teams.forEach{ team in
-                    let teamModel = TeamModel(id: team.id, name: team.name, logo: team.logo, constructor: team.constructor, chassis: team.chassis, power_unit: team.power_unit, base: team.base, tp: team.tp, team_url: team.team_url, drivers: team.drivers)
+                    let teamModel = TeamModel(id: team.id, name: team.name, logo: team.logo, constructor: team.constructor, chassis: team.chassis, power_unit: team.power_unit, base: team.base, tp: team.tp, team_url: team.team_url, drivers: team.drivers, colors: team.colors, tc: team.tc, first_entry: team.first_entry)
                     context.insert(teamModel)
                 }
             }

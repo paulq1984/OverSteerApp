@@ -26,7 +26,7 @@ struct TeamListView: View {
                         NavigationLink(value: team) {
                             Image(team.logo)
                                 .resizable()
-                                .aspectRatio(contentMode: .fill)
+                                .aspectRatio(contentMode: .fit)
                                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                                 .clipped()
                                 .cornerRadius(10)
