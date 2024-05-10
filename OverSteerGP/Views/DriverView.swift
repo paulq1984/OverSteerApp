@@ -68,6 +68,7 @@ struct DriverView: View {
                 Text("First Race \(driver.first_entry)")
             }
         }
+        .navigationTitle(driver.name)
     }
 }
 

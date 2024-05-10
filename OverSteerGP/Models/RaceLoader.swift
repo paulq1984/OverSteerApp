@@ -13,11 +13,23 @@ struct Race: Decodable {
     var countryShort: String
     var countryFull: String
     var completed: Bool
-//    var pole: Int?
-//    var winner: Int?
-//    var second: Int?
-//    var third: Int?
-//    var fastestLap: Int?
+    var pole: Int?
+    var winner: Int?
+    var second: Int?
+    var third: Int?
+    var fastestLap: Int?
+    var city: String
+    var track: String
+    var firstGP: Int
+    var laps: Int
+    var circuitLength: Float
+    var raceDistance: Float
+    var lapRecordtime: String
+    var lapRecorddriver: String
+    var lapRecordyear: Int
+    var dates: String
+    var map: String
+    
 }
 
 struct RaceLoader {

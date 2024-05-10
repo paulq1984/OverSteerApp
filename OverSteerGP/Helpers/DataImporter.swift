@@ -58,7 +58,7 @@ struct DataImporter {
             let races = try await raceLoader.loadRaces()
             if !races.isEmpty {
                 races.forEach { race in
-                    let raceModel = RaceModel(id: race.id, title: race.title, countryShort: race.countryShort, countryFull: race.countryFull, completed: race.completed)
+                    let raceModel = RaceModel(id: race.id, title: race.title, countryShort: race.countryShort, countryFull: race.countryFull, completed: race.completed, city: race.city, track: race.track, firstGP: race.firstGP, laps: race.laps, circuitLength: race.circuitLength, raceDistance: race.raceDistance, lapRecordtime: race.lapRecordtime, lapRecorddriver: race.lapRecorddriver, lapRecordyear: race.lapRecordyear, dates: race.dates, map: race.map)
                     context.insert(raceModel)
                 }
             }

@@ -14,8 +14,8 @@ struct ContentView: View {
                 TeamListView()
                     .tabItem { Label("Teams", systemImage: "car.2")}
                 DriverListView()
-                    .tabItem { Label("Driver", systemImage: "figure.seated.side")}
-                RacesView()
+                    .tabItem { Label("Drivers", systemImage: "figure.seated.side")}
+                RaceListView()
                     .tabItem { Label("Races", systemImage: "flag.checkered.2.crossed")}
             }
     }

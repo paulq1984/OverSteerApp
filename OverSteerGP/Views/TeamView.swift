@@ -22,7 +22,7 @@ struct TeamView: View {
     var body: some View {
         List {
             Section(){
-                VStack() {
+                VStack(spacing: 20) {
                     HStack {
                         Divider()
                             .frame(width: 5, height: 20)
@@ -46,26 +46,26 @@ struct TeamView: View {
                 }
             }
             Section() {
-                    ForEach(filteredDrivers) { driver in
-                        NavigationLink(value: driver) {
-                            HStack() {
-                                Image("\(driver.id)")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width: 20, height: 20)
-                                Divider()
-                                    .frame(width: 5, height: 20)
-                                    .overlay(Color(team.colors))
-                                Text(driver.name)
-                            }
+                ForEach(filteredDrivers) { driver in
+                    NavigationLink(value: driver) {
+                        HStack() {
+                            Image("\(driver.id)")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 20, height: 20)
+                            Divider()
+                                .frame(width: 5, height: 20)
+                                .overlay(Color(team.colors))
+                            Text(driver.name)
                         }
+                    }
                 }
             }
             Section() {
                 Text("TEAM INFO")
             }
         }
-        .navigationTitle("Team Info")
+        .navigationTitle(team.name)
         .navigationDestination(for: DriverModel.self) { driver in
             DriverView(driver: driver)
         }
